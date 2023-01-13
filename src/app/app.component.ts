@@ -7,9 +7,9 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
-  count = 0
+  count = 0;
 
   run() {
-    ++this.count;
+    ++this.count; //
   }
 }
