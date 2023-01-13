@@ -7,8 +7,9 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
+  count = 0
 
   run() {
-    this.name = this.name + new Date();
+    ++this.count;
   }
 }
